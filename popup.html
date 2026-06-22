@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Get out of here</h1>
+    <span class="subtitle">Link Neutralizer</span>
+  </header>
+
+  <main class="app-content">
+    <div class="input-group">
+      <input type="text" id="url-input" placeholder="ej. twitter.com o links-molestos" autocomplete="off">
+      <button id="add-btn" title="Añadir palabra clave">+</button>
+    </div>
+
+    <div class="list-container">
+      <h2>Links to ignore/Enlaces a ignorar</h2>
+      <ul id="url-list">
+        </ul>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <a href="https://github.com/IlCarlosS/Extension_get-out-of-here" target="_blank" rel="noopener noreferrer" class="repo-link">
+      Open source on GitHub/Código abierto en GitHub ↗
+    </a>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

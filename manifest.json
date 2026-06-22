@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Get out of here",
+  "version": "1.0",
+  "description": "Deshabilitar enlaces molestos y que no entorpezcan la navegación./Disable annoying links so they don’t get in the way of browsing.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Configurar Get out of here"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
