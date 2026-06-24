@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Get out of here",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Deshabilitar enlaces molestos y que no entorpezcan la navegación./Disable annoying links so they don’t get in the way of browsing.",
   "browser_specific_settings": {
     "gecko": {
